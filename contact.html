@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="contact.css">
+  <title>Formulaire de Contact</title>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>    
+    </nav>
+
+  <h1>Contactez Thomas MERLEN</h1>
+
+  <form action="traitement.php" method="post">
+    <label for="prenom">Prénom :</label><br>
+    <input type="text" id="prenom" required><br><br>
+
+    <label for="nom">Nom :</label><br>
+    <input type="text" id="nom" required><br><br>
+
+    <label for="email">Email :</label><br>
+    <input type="email" id="email" required><br><br>
+
+    <label for="telephone">Numéro de téléphone :</label><br>
+    <input type="tel" id="telephone" required><br><br>
+
+    <label for="message">Contenu du message :</label><br>
+    <textarea id="message" rows="5" cols="30" required></textarea><br><br>
+
+    <button type="submit">Envoyer</button>
+  </form>
+
+</body>
+</html>
