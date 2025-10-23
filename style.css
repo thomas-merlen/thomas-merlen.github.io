@@ -193,7 +193,7 @@ p {
     transform: scale(1.05);
 }
 
-.project-card {
+.card {
     background: rgba(255, 255, 255, 0.03);
     border-left: 4px solid #667eea;
     padding: 25px;
@@ -202,7 +202,7 @@ p {
     transition: all 0.3s ease;
 }
 
-.project-card img {
+.card img {
     width: 65%;
     height: auto; /* ajuste selon la taille que tu veux */
     border-radius: 6px; /* pour suivre le style arrondi de la carte */
@@ -212,23 +212,23 @@ p {
 
 
 
-.project-card:hover {
+.card:hover {
     background: rgba(255, 255, 255, 0.08);
     transform: translateX(10px);
     box-shadow: 0 5px 20px rgba(102, 126, 234, 0.2);
 }
 
-.project-card h3 {
+.card h3 {
     color: #fff;
     font-size: 1.4em;
     margin-bottom: 10px;
 }
 
-.project-card h3.certif{
+.card h3.certif{
     text-align: center;
 }
 
-.project-card p {
+.card p {
     color: #b0b0b0;
 }
 
@@ -253,7 +253,7 @@ box-shadow: 0 0 0 10px rgba(255, 107, 107, 0);
     }
 }
 
-.contact-section {
+.text-section {
     background: rgba(255, 255, 255, 0.05);
     border-radius: 12px;
     padding: 30px;
