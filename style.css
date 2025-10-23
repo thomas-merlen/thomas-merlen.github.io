@@ -349,3 +349,13 @@ img.photo{
     border: 5px solid;
     border-image: linear-gradient(135deg, #87c442, #5fa82f, #3d9440) 1;
 }
+
+img.avatar{
+    height: auto;
+    max-width: 15%;
+    float: left;
+    margin-top: 15%;
+    margin-left: 10%;
+    border: 5px solid;
+    border-image: linear-gradient(135deg, #87c442, #5fa82f, #3d9440) 1;
+}
