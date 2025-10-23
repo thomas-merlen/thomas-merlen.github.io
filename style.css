@@ -337,3 +337,15 @@ a:hover {
 .dot.active {
     background-color: #667eea;
 }
+
+
+img.photo{
+    height: auto;
+    max-width: 15%;
+    float: right;
+    margin-top: 15%;
+    margin-right: 10%;
+
+    border: 5px solid; /* largeur de la bordure */
+    border-image: linear-gradient(135deg, #667eea, #764ba2, #f093fb) 1;
+}
