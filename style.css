@@ -24,6 +24,7 @@ body{
     animation: fadeInDown 1s ease forwards;
 }
 
+
 @keyframes fadeInDown{
     from{
         opacity: 0;
@@ -358,4 +359,16 @@ img.avatar{
     margin-left: 10%;
     border: 5px solid;
     border-image: linear-gradient(135deg, #87c442, #5fa82f, #3d9440) 1;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 1.3em;
 }
