@@ -208,12 +208,20 @@ p{
 }
 
 .card img{
-    width: 65%;
+    width: 100%;
     height: auto;
     border-radius: 6px;
     display: block;
     margin: 15px auto 0 auto;
 }
+
+.certif-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
 
 .card:hover{
     background: rgba(135, 196, 66, 0.08);
@@ -372,3 +380,4 @@ nav li{
     margin: 0 20px;
     font-size: 1.3em;
 }
+
