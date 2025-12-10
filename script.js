@@ -80,3 +80,10 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 document.addEventListener('contextmenu', event => event.preventDefault());
+
+document.querySelectorAll(".accordion-title").forEach(title => {
+    title.addEventListener("click", () => {
+        const parent = title.parentElement;
+        parent.classList.toggle("active");
+    });
+});
