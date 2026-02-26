@@ -16,6 +16,7 @@ body{
     max-width: 1000px;
     margin: 0 auto;
     padding: 80px 30px;
+    padding-top: 130px;
 }
 
 .header{
@@ -369,16 +370,31 @@ img.avatar{
     border-image: linear-gradient(135deg, #87c442, #5fa82f, #3d9440) 1;
 }
 
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background: rgba(10, 10, 10, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(135, 196, 66, 0.2);
+    padding: 12px 0;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+}
+
 nav ul{
     list-style: none;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 nav li{
     display: inline-block;
-    margin: 0 20px;
-    font-size: 1.3em;
+    margin: 0 15px;
+    font-size: 1em;
     text-transform: uppercase;
 }
 
