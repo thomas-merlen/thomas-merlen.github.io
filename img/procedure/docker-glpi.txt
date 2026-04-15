@@ -2,7 +2,7 @@ mkdir glpi
 
 cd glpi
 
-sudo vim docker-compose.yaml
+sudo vim docker-compose.yml
 
 name: glpi
 
@@ -35,5 +35,14 @@ services:
 volumes:
    glpi_data:
    db_data:
+
+sudo vim .env
+
+GLPI_DB_HOST=db
+GLPI_DB_PORT=3306
+GLPI_DB_NAME=glpi
+GLPI_DB_USER=glpi
+GLPI_DB_PASSWORD=glpi
+
 
 sudo docker compose up
