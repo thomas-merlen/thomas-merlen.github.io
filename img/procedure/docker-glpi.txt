@@ -45,4 +45,4 @@ GLPI_DB_USER=glpi
 GLPI_DB_PASSWORD=glpi
 
 
-sudo docker compose up
+sudo docker compose up -d
