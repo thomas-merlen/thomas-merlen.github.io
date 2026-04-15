@@ -1,0 +1,16 @@
+Sur l'interface glpi : Administration -> Inventory -> Enable Inventory
+
+wget https://github.com/glpi-project/glpi-agent/releases/download/1.17/glpi-agent-1.17-linux-installer.pl
+
+sudo perl glpi-agent-1.17-linux-installer.pl --install 
+
+Provide an url to configure GLPI server:
+> http://localhost
+
+Provide a path to configure local inventory run or leave it empty:
+> 
+
+Provide a tag to configure or leave it empty:
+> server-naibed
+
+sudo glpi-agent --force
